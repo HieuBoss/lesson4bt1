@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<h1>Registration From-Job Seekers</h1>
+	<form action="thankyou.html" method="post">
+		<label>Login Name:</label>
+		<input autofocus required type="text" name="loginname" placeholder="Enter loginname" pattern="[a-zA-Z ]{6,30}"><br><br>
+		<label>Password:</label>
+		<input autofocus required type="Password" name="password" placeholder="Enter password" pattern="[a-z]{,8}"><br><br>
+		<label>Re-enter Password:</label>
+		<input autofocus required type="Password" name="re-enterpassword" placeholder="Enter re-enterpassword" pattern="[a-z]{,8}"><br><br>
+	
+	<label>Gender:</label> &emsp;
+	<input type="radio" name="Gender">Male
+	<input type="radio" name="Gender">Female
+	<br><br>
+	<label>Experience (In Year):</label>
+	<select>
+		<option value="">select...</option>
+		<option value="0-1">0-1</option>
+		<option value="1-2">1-2</option>
+		<option value="2-3">2-3</option>
+		<option value="3+">3+</option>
+    </select>
+	<div>
+	    <br><br>
+		<button type="submit">Register</button>
+		<button type="reset">Cancel</button>
+	</div>	
+	</form>
+</body>
+</html>

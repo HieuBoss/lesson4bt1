@@ -1,0 +1,11 @@
+label{
+    width: 200px;
+    height: 20px;
+	float: left;
+	padding-left: 10px;
+	padding-top: 10px;	
+}
+button {
+	margin-left: 20px;
+	margin-top: 10px;
+}
